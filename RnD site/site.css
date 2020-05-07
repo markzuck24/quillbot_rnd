@@ -1,0 +1,14 @@
+.column {
+    float: left;
+    width: 50%;
+    color: blue;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+    color: blue;
+  }
+  
